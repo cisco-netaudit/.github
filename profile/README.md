@@ -1,6 +1,9 @@
 # Netaudit: Network Audit Automation Tool
 
-![Netaudit Logo](app/static/img/netaudit.png)
+<p align="center">
+  <img src="https://wwwin-github.cisco.com/raw/Netaudit/.github/master/profile/netaudit.png" alt="Netaudit Banner" />
+</p>
+
 
 Netaudit is a powerful Flask-based web application designed to streamline and automate network audit tasks, particularly crucial during network migrations and routine compliance checks. It helps network engineers and administrators validate configurations, check device states, and ensure network health with ease and efficiency.
 
