@@ -1,6 +1,6 @@
 # Netaudit: Network Audit Automation Tool
 
-<p align="center">
+<p align="left">
   <img src="https://wwwin-github.cisco.com/raw/Netaudit/.github/master/profile/netaudit.png" alt="Netaudit Banner" />
 </p>
 
