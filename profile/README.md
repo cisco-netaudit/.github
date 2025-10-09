@@ -25,7 +25,7 @@ Netaudit is a powerful Flask-based web application designed to streamline and au
 
 In complex network environments, especially during migrations, validating device configurations and operational states is a painstaking process. Netaudit simplifies this by providing a platform to define custom checks, run audits on demand or periodically, and visualize results. From simple image version checks to complex routing protocol state validations (like BGP or OSPF), Netaudit ensures that your network devices are compliant and functioning as expected.
 
-The application offers two primary modes: a comprehensive **Dashboard** for ongoing monitoring and historical data, and a **Run Now** feature for immediate, post-migration validations.
+The application offers two primary modes: a comprehensive **Dashboard** for ongoing monitoring and historical data, and a **Quick Audit** feature for immediate, post-migration validations.
 
 ---
 
@@ -46,7 +46,7 @@ Netaudit comes packed with features to facilitate robust network auditing:
 - **Detailed Audit Results:** View pass/fail status for each check on individual devices or across entire views.
 - **Action Tracking:** Mark actions taken on audit findings and add comments for compliance and follow-up.
 
-### Run Now Mode
+### Quick Audit Mode
 - **On-Demand Audits:** Perform quick, ad-hoc audits for specific devices and checks, ideal for post-migration validation.
 - **Immediate Results:** View audit results instantly in a tabular format.
 - **Export Capabilities:** Export audit reports to Excel for further analysis or record-keeping.
@@ -105,9 +105,9 @@ Netaudit is designed with a clear separation of concerns to manage network audit
 ### Dashboard
 Upon logging in, the Dashboard provides an immediate overview of your network's audit posture. It displays charts summarizing device compliance (pass/fail), actions taken, and a timeline of device deployments. This is ideal for long-term monitoring and understanding trends. You can navigate to `Results` from the sidebar to view detailed historical audit data for devices and views, and utilize the "Follow Up" feature to log actions and comments on audit findings.
 
-### Run Now
-For immediate validation, such as after a network change or migration, use the "Run Now" feature.
-1.  Navigate to `Run Now` in the sidebar.
+### Quick Audit
+For immediate validation, such as after a network change or migration, use the "Quick Audit" feature.
+1.  Navigate to `Quick Audit` in the sidebar.
 2.  Enter the hostnames or IP addresses of the devices you wish to audit.
 3.  Select the specific audit checks you want to run.
 4.  Provide the necessary jump host and network credentials.
