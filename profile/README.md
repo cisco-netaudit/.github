@@ -1,7 +1,7 @@
 # Netaudit
 
 <p align="left">
-  <img src="https://wwwin-github.cisco.com/raw/Netaudit/.github/master/profile/netaudit.png" alt="Netaudit Banner" />
+  <img src="https://github.comNetaudit/.github/blob/master/profile/netaudit.png" alt="Netaudit Banner" />
 </p>
 
 
